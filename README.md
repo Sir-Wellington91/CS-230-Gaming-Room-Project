@@ -2,6 +2,7 @@
 Final iteration for SNHU CS-230 The Gaming Room software design project 
 
 REFLECTION 
+
 The client for this project was The Gaming Room, a company that wanted to expand their existing Android game, Draw It or Lose It, into a web-based application that could run across multiple platforms. The main goal was to design software that supports multiple teams and players, ensures unique names for games and teams, and allows only one instance of the game service to exist in memory at a time. The focus was on creating a scalable and accessible design that could work on different operating systems and devices through a browser.
 
 One area I feel I did particularly well in was organizing the software design using object-oriented principles. Creating and using the Entity base class helped simplify the structure by allowing Game, Team, and Player to share common attributes like ID and name. This made the code cleaner and easier to manage. I also think I did well applying the singleton pattern in the GameService class to ensure only one instance existed, which directly met one of the core requirements.
